@@ -154,6 +154,12 @@ sudo apt install -y libpango-1.0-0 libgdk-pixbuf2.0-0 libcairo2 libffi-dev libjp
 sudo apt install -y libffi-dev libjpeg-dev libxml2-dev libxslt1-dev libpango1.0-dev libgdk-pixbuf2.0-dev libcups2-dev
 sudo apt install -y build-essential pkg-config python3-dev
 ```
+Or simply use the requirements.txt file:
+
+```
+pip install -r requirements.txt
+```
+
 
 - NOTE: Development done under Ubuntu Linux and never was tested in Windows/MAC.
 
